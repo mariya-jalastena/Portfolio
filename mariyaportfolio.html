@@ -381,7 +381,7 @@ const close=()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded',
 menu.onclick=()=>{const o=nav.classList.toggle('open');menu.setAttribute('aria-expanded',o);menu.textContent=o?'✕':'☰'};
 nav.querySelectorAll('a').forEach(a=>a.onclick=close);
 // Replace these two values with your own details
-const EMAIL='YOUR_EMAIL@example.com',WA='91XXXXXXXXXX';
+const EMAIL='mariyajayaseelan117@gmail.com',WA='916382053165';
 const f=$('#enq'),E=f.elements,msg=()=>`Hi Mariya, I’d like to talk about a website.\nName: ${E.n.value}\nBusiness: ${E.b.value}\nI need: ${E.t.value}\n${E.m.value}`;
 $('#em').onclick=()=>{if(f.reportValidity())location.href=`mailto:${EMAIL}?subject=${encodeURIComponent('Website enquiry from '+E.b.value)}&body=${encodeURIComponent(msg())}`};
 const wa=$('#wa');if(/^\d{10,15}$/.test(WA))wa.onclick=()=>{if(f.reportValidity())open(`https://wa.me/${WA}?text=${encodeURIComponent(msg())}`,'_blank','noopener')};else wa.hidden=true;
