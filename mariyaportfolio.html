@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fbfaff">
+<title>Mariya Jalastena | Website design and Google Business Profile setup in Coimbatore</title>
+<meta name="description" content="Mariya Jalastena designs and builds clear, mobile-friendly websites and sets up Google Business Profiles for local businesses in Coimbatore, Tamil Nadu. Websites from ₹5,999 with hosting and domain included.">
+<meta property="og:title" content="Mariya Jalastena | Website design and Google Business Profile setup">
+<meta property="og:description" content="Clear websites and complete Google listings, so local customers can find and trust you.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbfaff;--ink:#1c1b3a;--muted:#585774;--line:#e4e1f5;--violet:#5b4bff;--pink:#ff7ab6;--sun:#ffd24d;--mint:#8ee6c8;--display:'Bricolage Grotesque',system-ui,sans-serif;--ease:cubic-bezier(.3,1.5,.5,1)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;font:400 1.0625rem/1.65 'Figtree',system-ui,sans-serif;color:var(--ink);background:var(--bg);overflow-x:hidden}
+h1,h2,h3{font-family:var(--display);line-height:1.05;letter-spacing:-.03em;margin:0}
+p{margin:0}a{color:inherit}
+:focus-visible{outline:3px solid var(--violet);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:12px;top:-60px;background:var(--ink);color:#fff;padding:10px 16px;border-radius:8px;z-index:200}.skip:focus{top:12px}
+.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
+section{padding:96px 0}
+h2{font-size:clamp(2.1rem,4.4vw,3.4rem);font-weight:800;max-width:16ch}
+.lead{color:var(--muted);max-width:52ch;margin-top:16px}
+
+/* header */
+header{position:sticky;top:0;z-index:100;background:rgba(251,250,255,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font:800 1.2rem var(--display);letter-spacing:-.02em}
+.logo svg{width:22px;height:22px;fill:var(--violet);animation:spin 12s linear infinite}
+nav{display:flex;align-items:center;gap:28px;font-weight:600;font-size:.95rem}
+nav a{text-decoration:none;color:var(--muted);transition:color .2s}nav a:hover{color:var(--violet)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:99px;font-weight:700;text-decoration:none;border:2px solid var(--ink);background:var(--ink);color:#fff;transition:transform .35s var(--ease),box-shadow .3s}
+.btn:hover{transform:translateY(-3px) rotate(-1.5deg);box-shadow:0 10px 0 -2px var(--pink)}
+.btn.ghost{background:transparent;color:var(--ink)}
+nav .btn{padding:10px 20px;color:#fff}nav .btn:hover{color:#fff}
+.menu{display:none;background:none;border:2px solid var(--ink);border-radius:10px;padding:6px 12px;font-size:1.2rem;cursor:pointer;color:var(--ink)}
+
+/* hero */
+.hero{padding:56px 0 80px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:#fff;border-radius:99px;padding:8px 16px;font-size:.9rem;font-weight:600}
+.badge i{width:9px;height:9px;border-radius:50%;background:#2fbf71;box-shadow:0 0 0 4px #2fbf7127;animation:pulse 2s infinite}
+h1{font-size:clamp(2.8rem,6.4vw,5.2rem);font-weight:800;margin:22px 0 20px;letter-spacing:-.045em}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--sun) 62% 92%,transparent 92%)}
+.hero p.lead{font-size:1.15rem;color:#45435f}
+.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin:36px 0 0;padding:0;list-style:none;color:var(--muted);font-size:.95rem;font-weight:500}
+.facts li:before{content:"✓";color:var(--violet);font-weight:800;margin-right:8px}
+
+.stage{position:relative;height:470px;perspective:900px}
+.stage:before{content:"";position:absolute;inset:6% 4%;border-radius:46% 54% 50% 50%;background:radial-gradient(circle at 30% 30%,#ece9ff,#f8e8f2 70%);z-index:-1}
+.shape{position:absolute;transition:translate .25s ease-out}
+.shape>.f{animation:float 6s ease-in-out infinite;transform-style:preserve-3d}
+.shape{animation:pop .8s var(--ease) both}
+.sphere{width:150px;height:150px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff 0 4%,#ffc4de 10%,var(--pink) 40%,#c43f8f 82%);box-shadow:inset -14px -18px 30px #5b1a5a55,0 30px 30px -10px #c43f8f40}
+.cube{width:100px;height:100px;position:relative;transform-style:preserve-3d;animation:cube 14s linear infinite}
+.cube i{position:absolute;inset:0;border:2px solid #ffffffa0}
+.cube i:nth-child(1){transform:translateZ(50px);background:#7c6fff}.cube i:nth-child(2){transform:rotateY(180deg) translateZ(50px);background:#4a3be0}
+.cube i:nth-child(3){transform:rotateY(90deg) translateZ(50px);background:#ffb066}.cube i:nth-child(4){transform:rotateY(-90deg) translateZ(50px);background:#ff7ab6}
+.cube i:nth-child(5){transform:rotateX(90deg) translateZ(50px);background:#d9d4ff}.cube i:nth-child(6){transform:rotateX(-90deg) translateZ(50px);background:#3a2fb0}
+.ring{width:110px;height:110px;border-radius:50%;border:20px solid var(--sun);box-shadow:0 18px 0 -6px #e2ae1f66,inset 0 -6px 0 #e2ae1f55;transform:rotateX(62deg) rotateZ(-20deg)}
+.star{width:56px;height:56px;fill:var(--violet);animation:spin 10s linear infinite}
+.chip{position:absolute;background:#fff;border:1px solid var(--line);border-radius:99px;padding:8px 16px;font-weight:700;font-size:.92rem;box-shadow:0 8px 20px -10px #3b2fb050;display:flex;align-items:center;gap:8px;animation:pop .6s var(--ease) both,bob 5s ease-in-out infinite}
+.chip:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--c)}
+
+/* work */
+.work{background:#fff;border-block:1px solid var(--line)}
+.project{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;margin-top:64px}
+.project.flip .mock{order:2}
+.mock{border-radius:18px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 30px 60px -30px #3b2fb060;transition:transform .2s ease-out}
+.bar{height:36px;display:flex;align-items:center;gap:6px;padding:0 14px;background:#f1effc}
+.bar i{width:10px;height:10px;border-radius:50%;background:#cfcaf0}.bar i:nth-child(1){background:#ff9f9f}.bar i:nth-child(2){background:#ffd98a}.bar i:nth-child(3){background:#8de0b0}
+.scene{min-height:310px;padding:28px 30px;display:grid;grid-template-columns:1fr .8fr;align-items:center;gap:10px;position:relative;overflow:hidden}
+.scene b{font:800 .95rem var(--display)}
+.scene h3{font-size:clamp(1.7rem,3vw,2.4rem);margin:12px 0 10px}
+.scene p{font-size:.85rem;max-width:22ch}
+.scene .fake{display:inline-block;margin-top:16px;padding:8px 14px;border-radius:99px;font-size:.78rem;font-weight:700;color:#fff}
+.hosp{background:linear-gradient(135deg,#dff4f4,#fff 65%);color:#1d4150}.hosp .fake{background:#2f7480}
+.plus{font:300 9rem/1 var(--display);color:#58a9b2;text-shadow:8px 10px 0 #bde0e2;justify-self:center;animation:float 5s ease-in-out infinite}
+.pill{position:absolute;right:16%;bottom:16%;width:30px;height:62px;border-radius:99px;background:linear-gradient(90deg,#ffb2c2,#ff6f95);transform:rotate(35deg);animation:bob 4s ease-in-out infinite}
+.jewel{background:linear-gradient(130deg,#fbf1dc,#f3dfbd);color:#5a2a21}.jewel .fake{background:#6d2633}
+.jewel{grid-template-columns:1.35fr .65fr}.jewel h3{font-family:Georgia,serif;font-weight:700;font-size:clamp(1.5rem,2.5vw,2.05rem);line-height:1.12;letter-spacing:-.02em}.jewel .coin{width:118px;height:118px;font-size:2.4rem}
+.coin{width:140px;height:140px;border-radius:50%;justify-self:center;border:6px solid #d4a858;background:repeating-radial-gradient(circle,#efd48e 0 3px,#c99244 4px 6px);box-shadow:inset -10px -8px 14px #75471d70,0 20px 24px -8px #5a392c55;display:grid;place-items:center;font-size:3rem;color:#875622;animation:coin 5s ease-in-out infinite}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:.85rem;font-weight:700;padding:6px 14px;border-radius:99px}
+.status:before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.live{background:#e0f6e9;color:#1e7a47}.wip{background:#fff1d4;color:#8a5a0c}
+.project h3{font-size:clamp(2rem,3.4vw,2.8rem);font-weight:800;margin:16px 0 20px}
+dl{margin:0;display:grid;gap:16px}
+dt{font-weight:700;font-size:.95rem}dd{margin:2px 0 0;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}
+.tags span{border:1px solid var(--line);background:var(--bg);border-radius:99px;padding:5px 14px;font-size:.88rem;font-weight:600;color:#45435f}
+.link{font-weight:700;color:var(--violet);text-decoration:none;border-bottom:2px solid currentColor;padding-bottom:3px}
+.link:hover{color:var(--ink)}
+.note{display:block;margin-top:10px;font-size:.88rem;color:var(--muted)}
+.more{margin-top:56px;padding:22px 26px;border:2px dashed var(--line);border-radius:16px;color:var(--muted);font-weight:500}
+
+/* services */
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:48px}
+.col{border-top:4px solid var(--c);padding-top:20px}
+.col h3{font-size:1.55rem;font-weight:700;margin-bottom:10px}
+.col p{color:var(--muted)}
+
+/* process */
+.steps{list-style:none;padding:0;margin:48px 0 0;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:s}
+.steps li{counter-increment:s;position:relative;padding-top:64px}
+.steps li:before{content:counter(s);position:absolute;top:0;left:0;width:46px;height:46px;border-radius:50%;background:var(--c);display:grid;place-items:center;font:800 1.2rem var(--display);transition:transform .4s var(--ease)}
+.steps li:hover:before{transform:scale(1.18) rotate(-8deg)}
+.steps h3{font-size:1.25rem;font-weight:700;margin-bottom:6px}
+.steps p{color:var(--muted);font-size:.98rem}
+
+/* about */
+.about{background:#fff;border-block:1px solid var(--line)}
+.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
+.portrait{aspect-ratio:1;max-width:380px;border-radius:44% 56% 50% 50%;background:linear-gradient(145deg,var(--pink),var(--violet));display:grid;place-items:center;position:relative;animation:morph 9s ease-in-out infinite}
+.portrait span{font:800 10rem/1 var(--display);color:#fff;letter-spacing:-.06em}
+.portrait svg{position:absolute;right:10%;top:12%;width:46px;fill:var(--sun);animation:spin 8s linear infinite}
+.about p+p{margin-top:16px}.about p{color:#45435f;max-width:54ch}
+.about h2{margin-bottom:20px}
+
+/* contact */
+.contact{background:var(--sun);position:relative;overflow:hidden}
+.contact h2{max-width:14ch}.contact .lead{color:#3d3a20}
+.contact .btn{margin-top:30px;font-size:1.1rem;padding:18px 30px}
+.ball{position:absolute;right:8%;top:50%;width:200px;height:200px;margin-top:-100px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff 0 3%,#cfc9ff 8%,var(--violet) 45%,#2c2090 85%);box-shadow:0 30px 40px -12px #2c209055;animation:float 6s ease-in-out infinite}
+footer{padding:36px 0;color:var(--muted);font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer a{text-decoration:none;font-weight:600;margin-left:18px}footer a:hover{color:var(--violet)}
+
+.cols{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))!important}
+[hidden]{display:none!important}
+button.btn{font:inherit;font-weight:700;cursor:pointer}
+.pricing .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.amount{font:800 clamp(3.4rem,8vw,5.5rem)/1 var(--display);letter-spacing:-.05em;margin:22px 0 14px}
+.amount small{display:block;font:600 1.1rem 'Figtree',sans-serif;letter-spacing:0;color:var(--muted);margin-bottom:6px}
+.free{display:inline-block;background:var(--sun);border-radius:99px;padding:6px 16px;font-weight:700;font-size:.92rem;margin-bottom:18px}
+.gbp{background:#fff;border-block:1px solid var(--line)}
+.gbp .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:20px;padding:30px;box-shadow:0 24px 50px -30px #3b2fb050}
+.card h3{font-size:1.4rem;margin-bottom:16px}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.checks li{display:flex;gap:12px}
+.checks li:before{content:"✓";flex:none;width:24px;height:24px;border-radius:50%;background:var(--mint);display:grid;place-items:center;font-size:.8rem;font-weight:800;margin-top:2px}
+.honest{margin-top:24px;padding:18px 20px;border-left:4px solid var(--violet);background:#f1effc;border-radius:0 12px 12px 0;font-size:.98rem;color:#33315a}
+.faq{max-width:780px}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;font:700 1.15rem var(--display);list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:1.5rem;line-height:1;color:var(--violet);transition:transform .3s var(--ease)}
+details[open] summary:after{transform:rotate(45deg)}
+details p{margin-top:10px;color:var(--muted)}
+.contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.form{background:#fff;border-radius:20px;padding:28px;box-shadow:0 24px 50px -24px #5a470088;display:grid;gap:16px}
+label{font-weight:700;font-size:.95rem;display:grid;gap:6px}
+input,select,textarea{font:inherit;font-weight:400;padding:12px 14px;border:2px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--violet)}
+.form .btn{margin:0;font-size:1rem;padding:14px 24px;justify-content:center}
+.form .row{display:flex;flex-wrap:wrap;gap:12px}.form .row .btn{flex:1}
+.small{font-size:.88rem;color:var(--muted)}
+.bubble{background:var(--sun);border-color:#e2ae1f}.bubble:before{display:none}
+.wave{display:inline-block;transform-origin:70% 70%;animation:wave 2.6s ease-in-out infinite}
+.col,.card,.steps li,.tags span{transition:transform .35s var(--ease)}
+.col:hover,.card:hover{transform:translateY(-6px) rotate(-.6deg)}.tags span:hover{transform:translateY(-3px) rotate(-3deg)}
+@keyframes wave{0%,60%,100%{transform:rotate(0)}10%,30%{transform:rotate(16deg)}20%,40%{transform:rotate(-10deg)}50%{transform:rotate(8deg)}}
+@keyframes pop{from{scale:0;opacity:0}to{scale:1;opacity:1}}
+@keyframes float{50%{transform:translateY(-16px) rotate(4deg)}}
+@keyframes bob{50%{transform:translateY(-8px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes cube{from{transform:rotateX(-24deg) rotateY(0)}to{transform:rotateX(-24deg) rotateY(360deg)}}
+@keyframes coin{50%{transform:translateY(-12px) rotateY(18deg)}}
+@keyframes pulse{50%{box-shadow:0 0 0 8px #2fbf7110}}
+@keyframes morph{50%{border-radius:56% 44% 46% 54%}}
+
+@media(max-width:860px){
+section{padding:72px 0}
+.menu{display:block}
+nav{display:none;position:absolute;top:70px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;background:var(--bg);padding:22px 20px;border-bottom:1px solid var(--line)}
+nav.open{display:flex}
+.hero .wrap,.project,.about .wrap,.gbp .wrap,.contact .wrap,.pricing .wrap{grid-template-columns:1fr}
+.project{gap:28px}.project.flip .mock{order:0}
+.stage{height:380px;transform:scale(.9)}
+.cols{grid-template-columns:1fr;gap:32px}
+.steps{grid-template-columns:1fr 1fr}
+.portrait{max-width:260px}.portrait span{font-size:7rem}
+.ball{width:110px;height:110px;margin-top:0;top:auto;bottom:24px;right:16px;opacity:.9}
+}
+@media(max-width:480px){.steps{grid-template-columns:1fr}.scene{min-height:280px;padding:20px}.plus{font-size:6rem}.jewel .coin{width:84px;height:84px;font-size:1.8rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%235b4bff' d='M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z'/%3E%3C/svg%3E">
+<!-- When you have a domain, add: <link rel="canonical" href="https://YOUR-DOMAIN/"> and <meta property="og:url" content="https://YOUR-DOMAIN/"> -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Mariya Jalastena","description":"Website design, development and Google Business Profile setup for local businesses.","areaServed":{"@type":"City","name":"Coimbatore"},"address":{"@type":"PostalAddress","addressLocality":"Coimbatore","addressRegion":"Tamil Nadu","addressCountry":"IN"},"priceRange":"From ₹5,999","serviceType":["Website design","Website development","Google Business Profile setup"]}</script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to my work</a>
+<header><div class="wrap nav">
+  <a class="logo" href="#top" aria-label="Mariya Jalastena, home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg>Mariya Jalastena</a>
+  <button class="menu" id="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav id="nav" aria-label="Main">
+    <a href="#work">My work</a><a href="#services">What I do</a><a href="#pricing">Pricing</a><a href="#google">Google listing</a><a href="#about">About me</a>
+    <a class="btn" href="#contact">Contact me</a>
+  </nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+  <div>
+    <span class="badge"><i></i>Taking on new projects</span>
+    <h1>Clear, friendly websites for <em>local businesses.</em></h1>
+    <p class="lead">I’m Mariya, a web designer and developer in Coimbatore. I build mobile-friendly websites and set up your Google Business Profile, so customers can find you, trust you and contact you.</p>
+    <div class="actions"><a class="btn" href="#work">See my work</a><a class="btn ghost" href="#contact">Request a quote</a></div>
+    <ul class="facts"><li>From ₹5,999, hosting and domain included</li><li>Free Google listing setup with your website</li><li>Based in Coimbatore, India</li></ul>
+  </div>
+  <div class="stage" id="stage" aria-hidden="true">
+    <div class="shape" data-d="1.2" style="left:8%;top:9%;animation-delay:.1s"><div class="f"><div class="sphere"></div></div></div>
+    <div class="shape" data-d="1.8" style="right:12%;top:16%;animation-delay:.25s"><div class="f" style="animation-delay:-2s"><div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+    <div class="shape" data-d="1" style="left:34%;top:50%;animation-delay:.4s"><div class="f" style="animation-delay:-4s"><div class="ring"></div></div></div>
+    <div class="shape" data-d="2.2" style="right:14%;bottom:10%;animation-delay:.55s"><svg class="star" viewBox="0 0 24 24"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg></div>
+    <div class="shape" data-d="1.5" style="left:6%;bottom:12%;animation-delay:.7s"><svg class="star" style="fill:var(--pink);width:34px;height:34px;animation-duration:7s" viewBox="0 0 24 24"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg></div>
+    <span class="chip bubble" style="left:30%;top:1%;animation-delay:.8s,-1s">Hi, I’m Mariya! <span class="wave">👋</span></span>
+    <span class="chip" style="--c:var(--violet);left:2%;top:46%;animation-delay:.9s,0s">Design</span>
+    <span class="chip" style="--c:var(--pink);right:4%;top:56%;animation-delay:1s,-1.5s">Code</span>
+    <span class="chip" style="--c:#e2ae1f;left:30%;bottom:3%;animation-delay:1.1s,-3s">Details</span>
+  </div>
+</div></section>
+
+<section class="work" id="work"><div class="wrap">
+  <h2>Websites I’ve built for real businesses</h2>
+  <p class="lead">Each project starts with one question: what does this business need visitors to do?</p>
+
+  <article class="project">
+    <div class="mock" data-tilt aria-hidden="true"><div class="bar"><i></i><i></i><i></i></div>
+      <div class="scene hosp"><div><b>kamalam +</b><h3>Your health.<br>Our priority.</h3><p>Care, diagnostics and support in one place.</p><span class="fake">Explore services</span></div><div class="plus">+</div><span class="pill"></span></div></div>
+    <div>
+      <span class="status live">Live</span>
+      <h3>Kamalam Hospital &amp; Diagnostics</h3>
+      <dl><div><dt>What the client needed</dt><dd>A calm website where patients can quickly find services and know how to reach the hospital.</dd></div>
+      <div><dt>What I did</dt><dd>Designed a clear layout and built the site so the most important information is easy to find.</dd></div></dl>
+      <div class="tags"><span>Website design</span><span>Development</span><span>Healthcare</span></div>
+      <a class="link" href="https://kamalamhospital.com/" target="_blank" rel="noopener noreferrer">Visit kamalamhospital.com</a>
+    </div>
+  </article>
+
+  <article class="project flip">
+    <div class="mock" data-tilt aria-hidden="true"><div class="bar"><i></i><i></i><i></i></div>
+      <div class="scene jewel"><div><b>Sri Jayalakshmi Die Works</b><h3>Tradition,<br>in every detail.</h3><p>Gold coins, jewellery and precision die-making.</p><span class="fake">Enquire now</span></div><div class="coin">✺</div></div></div>
+    <div>
+      <span class="status wip">In progress</span>
+      <h3>Sri Jayalakshmi Die Works</h3>
+      <dl><div><dt>What the client needs</dt><dd>An online home for a Coimbatore business that makes gold coins, jewellery and custom dies.</dd></div>
+      <div><dt>What I’m doing</dt><dd>Designing a warm, simple site where customers can see what’s offered and enquire by phone or WhatsApp.</dd></div></dl>
+      <div class="tags"><span>Website design</span><span>Development</span><span>Jewellery and craft</span></div>
+      <a class="link" href="sri-jayalakshmi-die-works.html" target="_blank" rel="noopener noreferrer">Preview the current build</a>
+      <span class="note">A working preview. It isn’t public yet.</span>
+    </div>
+  </article>
+  <!-- TESTIMONIAL: when you have one, add it here, for example:
+<figure class="card" style="margin:56px 0 0"><blockquote style="margin:0;font:700 1.4rem/1.35 var(--display)">“Their words here.”</blockquote><figcaption class="small" style="margin-top:12px">Name, role, Kamalam Hospital</figcaption></figure> -->
+  <p class="more">More projects are on the way. If you’d like yours to be next, tell me about it below.</p>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <h2>What I can do for your business</h2>
+  <p class="lead">One person from first idea to finished website, so nothing gets lost between design and code.</p>
+  <div class="cols">
+    <div class="col" style="--c:var(--violet)"><h3>Website design</h3><p>A look and feel that fit your business, with plain wording and an obvious next step for every visitor.</p></div>
+    <div class="col" style="--c:var(--pink)"><h3>Website development</h3><p>Fast pages that work on phones, tablets and computers, ready to put on your own domain.</p></div>
+    <div class="col" style="--c:var(--mint)"><h3>Ready for customers</h3><p>Call and WhatsApp buttons and Google Maps links, so people can reach you in one tap.</p></div>
+    <div class="col" style="--c:var(--sun)"><h3>Google Business Profile</h3><p>Your listing on Google Search and Maps, set up properly and matched to your website. Free with your website. <a class="link" href="#google">See what’s included</a></p></div>
+  </div>
+</div></section>
+
+<section class="pricing" id="pricing"><div class="wrap">
+  <div>
+    <h2>Simple pricing, no surprises</h2>
+    <div class="amount"><small>Websites start from</small>₹5,999</div>
+    <p class="lead" style="margin-top:0">Hosting and domain are included. The final price depends on the pages and features you need, and you get it in writing before I start.</p>
+    <div class="actions"><a class="btn" href="#contact">Request a quote</a></div>
+  </div>
+  <div class="card"><span class="free">Free Google Business Profile setup</span>
+    <h3>Every website includes</h3>
+    <ul class="checks">
+      <li>A design made for your business</li>
+      <li>Pages that work well on phones</li>
+      <li>Hosting and domain</li>
+      <li>Call, WhatsApp and Google Maps buttons</li>
+      <li>Your Google Business Profile set up for free</li>
+      <li>A written quote before any work begins</li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="gbp" id="google"><div class="wrap">
+  <div>
+    <span class="free">Free when you build your website with me</span>
+    <h2>Be easy to find on Google</h2>
+    <p class="lead">When someone nearby searches for a business like yours, Google shows a profile with your name, photos, reviews, opening hours and a map. I set it up properly and make sure it matches your website.</p>
+    <p class="honest">I can’t promise a number one ranking, and nobody honestly can. What I can do is give you a complete, accurate profile and a fast, clear website, which is what gives you the best chance. The profile stays in your name. I only ask for manager access, and you can remove it at any time.</p>
+  </div>
+  <div class="card"><h3>What I set up for you</h3>
+    <ul class="checks">
+      <li>Claim and verify your business profile</li>
+      <li>Choose the right main and extra categories</li>
+      <li>Add your address or service area, phone number and opening hours</li>
+      <li>List your services or products in plain words</li>
+      <li>Upload clear photos of your shop, work and team</li>
+      <li>Create a short link customers can use to leave a review</li>
+      <li>Link it to your website, with call and WhatsApp buttons</li>
+      <li>Show you how to post updates and reply to reviews</li>
+    </ul>
+    <p class="small" style="margin-top:18px">Your website uses the same name, address and phone number as your profile, and includes details Google can read, so the two support each other.</p>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+  <h2>How we’ll work together</h2>
+  <ol class="steps">
+    <li style="--c:var(--sun)"><h3>You tell me about your business</h3><p>What you do, who your customers are and what you want visitors to do.</p></li>
+    <li style="--c:var(--pink)"><h3>I plan the pages and words</h3><p>You see a simple outline of the site before any design begins.</p></li>
+    <li style="--c:var(--mint)"><h3>I design and build</h3><p>You review a working version and tell me what to change.</p></li>
+    <li style="--c:#c8c2ff"><h3>We launch</h3><p>I check everything on real phones, set up your Google profile and help you go live.</p></li>
+  </ol>
+</div></section>
+
+<section id="why" style="padding-top:0"><div class="wrap">
+  <h2>Why you can feel confident working with me</h2>
+  <div class="cols">
+    <div class="col" style="--c:var(--violet)"><h3>A written plan first</h3><p>Before I start, you get a short outline of the pages, features, price and timeline. No surprises.</p></div>
+    <div class="col" style="--c:var(--pink)"><h3>You stay in control</h3><p>Your domain, website and Google profile are in your name, not mine.</p></div>
+    <div class="col" style="--c:var(--mint)"><h3>Plain answers</h3><p>I explain choices in everyday language and tell you honestly what will and won’t help.</p></div>
+    <div class="col" style="--c:var(--sun)"><h3>Tested before launch</h3><p>I check your site on real phones and computers before it goes live.</p></div>
+  </div>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap faq">
+  <h2>Questions clients often ask</h2>
+  <div style="margin-top:32px">
+    <details><summary>How much does a website cost?</summary><p>Websites start from ₹5,999, with hosting and domain included. The final price depends on the pages and features you need. After a short chat, I give you a fixed quote in writing, so you know the cost before any work starts.</p></details>
+    <details><summary>How long does it take?</summary><p>A small business website usually takes a few weeks. I confirm the timeline in your quote.</p></details>
+    <details><summary>What do you need from me?</summary><p>Your business name and contact details, a list of what you offer, and any logo or photos you have. If you don’t have photos yet, I’ll tell you what to take.</p></details>
+    <details><summary>I have a website. Do I still need a Google Business Profile?</summary><p>For a local business, yes. It’s often the first thing people see when they search, and it works best together with your website.</p></details>
+    <details><summary>Will it work on phones?</summary><p>Yes. Many customers browse on their phones, so I design for phones first and test on real devices.</p></details>
+    <details><summary>Can you update it after launch?</summary><p>Yes. Tell me what you want changed and we’ll agree the cost before I begin.</p></details>
+  </div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap">
+  <!-- PHOTO: when you have it, replace the whole .portrait div with <img src="mariya.jpg" alt="Mariya Jalastena" width="380" height="380" style="border-radius:44% 56% 50% 50%;object-fit:cover;max-width:380px;width:100%"> -->
+  <div class="portrait" aria-hidden="true"><span>M</span><svg viewBox="0 0 24 24"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg></div>
+  <div>
+    <h2>Hi, I’m Mariya</h2>
+    <p>I’m a web designer and developer based in Coimbatore. I enjoy making websites that look good, are easy to use and help a business show up online.</p>
+    <p>I’m still early in my career, and I treat every project as a chance to learn, solve a real problem and do careful work for the people who trust me with it.</p>
+  </div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+  <div>
+    <h2>Let’s talk about your website</h2>
+    <p class="lead">Tell me about your business and what you need. I’ll reply with a clear next step and a written quote. There’s no obligation.</p>
+  </div>
+  <form class="form" id="enq" aria-label="Project enquiry">
+    <label>Your name<input name="n" required autocomplete="name"></label>
+    <label>Business name<input name="b" required autocomplete="organization"></label>
+    <label>What do you need?<select name="t"><option>A new website</option><option>A website redesign</option><option>Google Business Profile setup</option><option>A website and Google profile</option><option>Not sure yet</option></select></label>
+    <label>Anything else I should know? <span class="small">(optional)</span><textarea name="m" rows="3"></textarea></label>
+    <div class="row"><button class="btn" type="button" id="em">Send by email</button><button class="btn ghost" type="button" id="wa">Send on WhatsApp</button></div>
+    <p class="small">This opens your email or WhatsApp with your message ready to send.</p>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="year"></span> Mariya Jalastena. Made with <span style="color:var(--pink)">♥</span> in Coimbatore</span><span><a href="#work">My work</a><a href="#contact">Contact</a><a href="#top">Back to top</a></span></div></footer>
+
+<script>
+(()=>{
+const $=s=>document.querySelector(s),nav=$('#nav'),menu=$('#menu');
+$('#year').textContent=new Date().getFullYear();
+const close=()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰'};
+menu.onclick=()=>{const o=nav.classList.toggle('open');menu.setAttribute('aria-expanded',o);menu.textContent=o?'✕':'☰'};
+nav.querySelectorAll('a').forEach(a=>a.onclick=close);
+// Replace these two values with your own details
+const EMAIL='YOUR_EMAIL@example.com',WA='91XXXXXXXXXX';
+const f=$('#enq'),E=f.elements,msg=()=>`Hi Mariya, I’d like to talk about a website.\nName: ${E.n.value}\nBusiness: ${E.b.value}\nI need: ${E.t.value}\n${E.m.value}`;
+$('#em').onclick=()=>{if(f.reportValidity())location.href=`mailto:${EMAIL}?subject=${encodeURIComponent('Website enquiry from '+E.b.value)}&body=${encodeURIComponent(msg())}`};
+const wa=$('#wa');if(/^\d{10,15}$/.test(WA))wa.onclick=()=>{if(f.reportValidity())open(`https://wa.me/${WA}?text=${encodeURIComponent(msg())}`,'_blank','noopener')};else wa.hidden=true;
+const fine=matchMedia('(pointer:fine)').matches&&!matchMedia('(prefers-reduced-motion:reduce)').matches;
+if(!fine)return;
+const st=$('#stage');
+st.addEventListener('pointermove',e=>{const r=st.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+st.querySelectorAll('.shape').forEach(s=>{const d=+s.dataset.d*24;s.style.translate=`${x*d}px ${y*d}px`})});
+st.addEventListener('pointerleave',()=>st.querySelectorAll('.shape').forEach(s=>s.style.translate=''));
+document.querySelectorAll('[data-tilt]').forEach(c=>{
+c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+c.style.transform=`perspective(900px) rotateY(${x*5}deg) rotateX(${-y*4}deg)`});
+c.addEventListener('pointerleave',()=>c.style.transform='')});
+})();
+</script>
+</body>
+</html>
